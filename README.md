@@ -79,13 +79,14 @@ The model performance is evaluated using the following metrics:
 - **Recall**: Proportion of actual positives identified correctly (0.85).
 - **F1-Score**: The harmonic mean of precision and recall (0.85).
 - **ROC Curve**: A plot showing the model's performance at various threshold levels.
+  
   ![AUROC Curve](AUC.png)
 
 The ensemble classifier achieves a higher accuracy than individual models, with ROC curves providing visual insight into the model's predictive capability.
 
 Presentation
 For a deeper understanding of this project, you can review our project presentation:
-[Download the Presentation](Predictive Analytics for early detection of cardiovascular diseases using machine learning techniques.pdf)
+[Download the Presentation](https://github.com/karthikEdara24/Early-Detection-of-Cardio-Vascular-Disease-using-Machine-Learning/blob/main/PPT.pdf)
 
 
 
@@ -96,8 +97,5 @@ For a deeper understanding of this project, you can review our project presentat
 - **Contributors**: [Karthik Edara](https://github.com/karthikEdara24), [Mannem Pardhava](https://github.com/pardhu41)
 
 ---
-
 > **Note**: This project is for educational purposes and should not be used as a substitute for medical advice.
 ```
-
-
