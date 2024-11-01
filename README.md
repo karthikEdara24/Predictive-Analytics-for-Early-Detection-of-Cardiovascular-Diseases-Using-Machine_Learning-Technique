@@ -96,6 +96,6 @@ For a deeper understanding of this project, you can review our project presentat
 - **Libraries**: Thanks to the developers of [Pandas](https://pandas.pydata.org/), [Scikit-Learn](https://scikit-learn.org/), [XGBoost](https://xgboost.readthedocs.io/), and [Streamlit](https://streamlit.io/) for providing the tools necessary for this project.
 - **Contributors**: [Karthik Edara](https://github.com/karthikEdara24), [Mannem Pardhava](https://github.com/pardhu41)
 
----
+
 > **Note**: This project is for educational purposes and should not be used as a substitute for medical advice.
-```
+
