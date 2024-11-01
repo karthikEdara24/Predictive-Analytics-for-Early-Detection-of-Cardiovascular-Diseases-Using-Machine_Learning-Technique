@@ -26,8 +26,7 @@ This project leverages machine learning algorithms like Logistic Regression, Ran
 ## Setup and Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/Cardiovascular-Disease-Prediction.git
-   cd Cardiovascular-Disease-Prediction
+   git clone https://github.com/karthikEdara24/Early-Detection-of-Cardio-Vascular-Disease-using-Machine-Learning.git
    ```
 
 2. Install required packages:
@@ -76,21 +75,29 @@ The Streamlit-powered GUI allows users to:
 ## Results and Evaluation
 The model performance is evaluated using the following metrics:
 - **Accuracy**: Percentage of correct predictions.
-- **Precision**: Proportion of positive identifications that were actually correct.
-- **Recall**: Proportion of actual positives identified correctly.
-- **F1-Score**: The harmonic mean of precision and recall.
+- **Precision**: Proportion of positive identifications that were actually correct (0.85).
+- **Recall**: Proportion of actual positives identified correctly (0.85).
+- **F1-Score**: The harmonic mean of precision and recall (0.85).
 - **ROC Curve**: A plot showing the model's performance at various threshold levels.
+  ![AUROC Curve](AUC.png)
 
 The ensemble classifier achieves a higher accuracy than individual models, with ROC curves providing visual insight into the model's predictive capability.
+
+Presentation
+For a deeper understanding of this project, you can review our project presentation:
+[Download the Presentation](Predictive Analytics for early detection of cardiovascular diseases using machine learning techniques.pdf)
+
+
+
 
 ## Acknowledgements
 - **Dataset**: This project utilizes a publicly available heart disease dataset.
 - **Libraries**: Thanks to the developers of [Pandas](https://pandas.pydata.org/), [Scikit-Learn](https://scikit-learn.org/), [XGBoost](https://xgboost.readthedocs.io/), and [Streamlit](https://streamlit.io/) for providing the tools necessary for this project.
-- **Contributors**: [Your Name](https://github.com/yourusername), [Teammate's Name (optional)](https://github.com/teammateusername)
+- **Contributors**: [Karthik Edara](https://github.com/karthikEdara24), [Mannem Pardhava](https://github.com/pardhu41)
 
 ---
 
 > **Note**: This project is for educational purposes and should not be used as a substitute for medical advice.
 ```
 
-This README outlines the key components of the project, including setup instructions, usage, and detailed descriptions of each module. Let me know if you’d like to add or adjust any specific section!
+
