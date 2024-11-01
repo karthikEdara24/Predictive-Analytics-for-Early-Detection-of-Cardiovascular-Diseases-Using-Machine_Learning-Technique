@@ -3,22 +3,13 @@ import pandas as pd
 import pickle
 from project import predict_heart_disease
 
-# Background image styling
 page_bg_img = '''
 <style>
-body {
-background-image: url("D:\MINI PROJECT\Cardio Vascular Diseases\Prediction\Accuracy.jpg");
-background-size: cover;
-}
 
 h1 {
-    color: #FFFFFF;
+    color: #ffffff; /* Darker color for headings */
     text-align: center;
     font-family: 'Arial', sans-serif;
-}
-
-.css-10trblm.e16nr0p33 {
-    color: #ffffff;
 }
 
 .stButton>button {
@@ -45,20 +36,20 @@ h1 {
 .stSelectbox>div>div>div {
     background-color: #f1f1f1;
     border: 2px solid #ccc;
+    color: black;
 }
 
 .stAlert {
-    background-color: #f5f5f5;
+    background-color: #000000; /* White background for alerts */
     border-radius: 10px;
     padding: 10px;
     font-size: 16px;
     margin-top: 10px;
+    color: #ffffff; /* Black color for output text */
 }
 
 </style>
 '''
-
-# Inject CSS for background image and styling
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
 st.title('Heart Failure Prediction')
