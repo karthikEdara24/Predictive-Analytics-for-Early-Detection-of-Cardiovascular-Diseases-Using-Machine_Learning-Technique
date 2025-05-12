@@ -1,4 +1,4 @@
-# <h1>Cardiovascular Disease Prediction Project</h1>
+# <h1>Predictive Analytics for Early Detection of Cardiovascular Diseases Using Machine Learning Techniques</h1>
 
 This project predicts the likelihood of cardiovascular disease based on various health parameters. The model uses an ensemble of machine learning algorithms to improve accuracy and provides an interactive web-based GUI for user-friendly input and result interpretation.
 
